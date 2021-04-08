@@ -22,6 +22,14 @@ body {
     left: 0;
 }
 
+.input-search:focus {
+    outline: none;
+}
+
+.button-search:focus {
+    outline: none;
+}
+
 .menu-button {
     padding: 0;
     display: flex;
@@ -51,7 +59,7 @@ body {
     align-items: center;
     padding-right: 17px;
     max-width: 900px;
-    width: 90%;
+    width: 100%;
 }
 
 .input-search {
@@ -62,6 +70,7 @@ body {
     padding-left: 23px;
     padding-right: 23px;
     width: 100%;
+    max-width: 800px
 }
 
 .button-search {
